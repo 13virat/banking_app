@@ -4,38 +4,57 @@ from django.contrib.auth.decorators import login_required
 from .forms import UserRegisterForm, UserLoginForm
 from .models import BankAccount, Transaction
 from .forms import BankAccountForm, TransactionForm
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 @login_required
 def create_account(request):
-    if request.method == 'POST':
-        form = BankAccountForm(request.POST)
-        if form.is_valid():
-            account = form.save(commit=False)
-            account.user = request.user
-            account.save()
-            return redirect('account_list')
-    else:
+    try:
+        if request.method == 'POST':
+            form = BankAccountForm(request.POST)
+            if form.is_valid():
+                account = form.save(commit=False)
+                account.user = request.user
+                account.save()
+                return redirect('account_list')
+        else:
+            form = BankAccountForm()
+    except Exception as e:
+        logger.error(f"Error creating account: {e}")
         form = BankAccountForm()
     return render(request, 'accounts/create_account.html', {'form': form})
 
 @login_required
 def account_list(request):
-    accounts = BankAccount.objects.filter(user=request.user).prefetch_related('transactions')
+    accounts = BankAccount.objects.filter(user=request.user)
     return render(request, 'accounts/account_list.html', {'accounts': accounts})
 
 @login_required
 def account_detail(request, account_id):
     account = get_object_or_404(BankAccount, id=account_id, user=request.user)
-    transactions = Transaction.objects.filter(account=account).select_related('account')
+    transactions = Transaction.objects.filter(account=account)
     if request.method == 'POST':
         form = TransactionForm(request.POST, user=request.user)
         if form.is_valid():
             transaction = form.save(commit=False)
             transaction.account = account
             try:
-                transaction.execute_transaction()
+                if transaction.transaction_type == 'transfer' and transaction.transfer_to:
+                    transfer_to_account = form.cleaned_data['transfer_to']
+                    if transaction.amount > account.balance:
+                        raise ValueError("Insufficient balance for transfer.")
+                    account.balance -= transaction.amount
+                    transfer_to_account.balance += transaction.amount
+                    account.save()
+                    transfer_to_account.save()
+                else:
+                    transaction.execute_transaction()
             except ValueError as e:
+                logger.warning(f"Transaction error: {e}")
                 return render(request, 'accounts/account_detail.html', {'account': account, 'transactions': transactions, 'form': form, 'error': str(e)})
+            transaction.save()
             return redirect('account_detail', account_id=account_id)
     else:
         form = TransactionForm(user=request.user)

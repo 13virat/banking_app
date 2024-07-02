@@ -1,0 +1,925 @@
+Watching for file changes with StatReloader
+Waiting for apps ready_event.
+Apps ready_event triggered. Sending autoreload_started signal.
+Watching dir /Users/apple/Documents/banking/banking_app/accounts/templates with glob **/*.
+Watching dir /Users/apple/Documents/banking/banking_app/locale with glob **/*.mo.
+Watching dir /Users/apple/Documents/banking/banking_app/accounts/locale with glob **/*.mo.
+(0.000) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None; alias=default
+(0.000) SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"; args=(); alias=default
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/selector_events.py first seen with mtime 1685867728.0488315
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/sql/where.py first seen with mtime 1719890979.1027937
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/html/entities.py first seen with mtime 1685867729.100338
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/contenttypes/forms.py first seen with mtime 1719890978.0758953
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/servers/basehttp.py first seen with mtime 1719890979.0504851
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/messages/api.py first seen with mtime 1719890978.597173
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/sqlite3/schema.py first seen with mtime 1719890979.0759332
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/tokenize.py first seen with mtime 1685867727.8955865
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/http/cookies.py first seen with mtime 1685867729.1242106
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/json/encoder.py first seen with mtime 1685867729.582469
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/decorators/csrf.py first seen with mtime 1719890979.196041
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/aggregates.py first seen with mtime 1719890979.0850608
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/operator.py first seen with mtime 1685867727.6525033
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/exceptions.py first seen with mtime 1685867728.0096467
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/bz2.py first seen with mtime 1685867727.4098465
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/encodings/aliases.py first seen with mtime 1685867728.5827117
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/migration.py first seen with mtime 1719890979.0793095
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sessions/models.py first seen with mtime 1719890978.7949708
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/zoneinfo/_tzpath.py first seen with mtime 1685867730.4893131
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/filters/others.py first seen with mtime 1719890977.0957901
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/fields/related.py first seen with mtime 1719890979.0951576
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/filters/__init__.py first seen with mtime 1719890977.0950656
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/base_user.py first seen with mtime 1719890977.939525
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/forms/utils.py first seen with mtime 1719890979.1075416
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/sre_compile.py first seen with mtime 1685867727.8093216
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/__init__.py first seen with mtime 1719890979.0520642
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/typing.py first seen with mtime 1685867727.9231868
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/filters.py first seen with mtime 1719890977.5179284
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/calendar.py first seen with mtime 1685867727.4175086
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/middleware/__init__.py first seen with mtime 1719890979.147618
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_json.cpython-310-darwin.so first seen with mtime 1685867693.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/actions.py first seen with mtime 1719890977.5158095
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/_sitebuiltins.py first seen with mtime 1685867727.35159
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/storage/handler.py first seen with mtime 1719890979.0272064
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/templatetags/l10n.py first seen with mtime 1719890979.1655173
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/_sysconfigdata__darwin_darwin.py first seen with mtime 1685867736.6321619
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/encodings/__init__.py first seen with mtime 1685867728.5787585
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/json/decoder.py first seen with mtime 1685867729.578537
+File /Users/apple/Documents/banking/banking_app/banking_app/__init__.py first seen with mtime 1719890998.602075
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/ipaddress.py first seen with mtime 1685867727.5926301
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/caches.py first seen with mtime 1719890979.0168939
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/templatetags/static.py first seen with mtime 1719890979.16588
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/subprocess.py first seen with mtime 1685867727.8447561
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/opcode.py first seen with mtime 1685867727.6486974
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/contenttypes/admin.py first seen with mtime 1719890978.0733707
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/exceptions.py first seen with mtime 1719890977.0900776
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/tempfile.py first seen with mtime 1685867727.872336
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/management/__init__.py first seen with mtime 1719890978.060626
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/transaction.py first seen with mtime 1719890979.0513294
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/utils.py first seen with mtime 1719890979.081808
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/staticfiles/checks.py first seen with mtime 1719890979.0033514
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/wsgiref/handlers.py first seen with mtime 1685867730.335949
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/ntpath.py first seen with mtime 1685867727.637052
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/templatetags/admin_modify.py first seen with mtime 1719890977.8260822
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/http/response.py first seen with mtime 1719890979.1472814
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/shortcuts.py first seen with mtime 1719890977.2343757
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/backends/__init__.py first seen with mtime 1719890979.1595228
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/random.py first seen with mtime 1685867727.7382066
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/sysconfig.py first seen with mtime 1685867727.8565288
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/hashers.py first seen with mtime 1719890977.942223
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/html.py first seen with mtime 1719890979.18273
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/sqlite3/__init__.py first seen with mtime 1719890979.0723915
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/templatetags/__init__.py first seen with mtime 1719890979.1642818
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/urllib/response.py first seen with mtime 1685867730.2811928
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/hashlib.py first seen with mtime 1685867727.561484
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/staticfiles/management/commands/__init__.py first seen with mtime 1719890979.006606
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/urllib/error.py first seen with mtime 1685867730.2692523
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_asyncio.cpython-310-darwin.so first seen with mtime 1685867693.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/reprlib.py first seen with mtime 1685867727.7460222
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/charset.py first seen with mtime 1685867728.4798038
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/encoders.py first seen with mtime 1685867728.4876578
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/queue.py first seen with mtime 1685867727.7305267
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/feedparser.py first seen with mtime 1685867728.4955943
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/sqlite3/operations.py first seen with mtime 1719890979.075491
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/datetime.py first seen with mtime 1685867727.487631
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/utils.py first seen with mtime 1719890979.1591997
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/asyncio.py first seen with mtime 1719890979.1748574
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/locks.py first seen with mtime 1685867728.0215383
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/__init__.py first seen with mtime 1685867728.452017
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/temp.py first seen with mtime 1719890979.0244596
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/engine.py first seen with mtime 1719890979.1562595
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/conf/locale/__init__.py first seen with mtime 1719890977.2397873
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/termios.cpython-310-darwin.so first seen with mtime 1685867696.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_datetime.cpython-310-darwin.so first seen with mtime 1685867693.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/serializers/json.py first seen with mtime 1719890979.048104
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/forms/boundfield.py first seen with mtime 1719890979.104846
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/tokens.py first seen with mtime 1719890977.0922396
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/messages/storage/__init__.py first seen with mtime 1719890978.6001053
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/header.py first seen with mtime 1685867728.5034983
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/duration.py first seen with mtime 1719890979.1801152
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/__init__.py first seen with mtime 1719890979.173548
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/conf/global_settings.py first seen with mtime 1719890977.236763
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/shutil.py first seen with mtime 1685867727.7774
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/mime/__init__.py first seen with mtime 1685867728.5388834
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/storage/__init__.py first seen with mtime 1719890979.0261142
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/base/schema.py first seen with mtime 1719890979.0567195
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/constraints.py first seen with mtime 1719890979.086583
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/staticfiles/management/__init__.py first seen with mtime 1719890979.006266
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/base/features.py first seen with mtime 1719890979.0551639
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/constants.py first seen with mtime 1685867727.997989
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/move.py first seen with mtime 1719890979.0240815
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/handlers/asgi.py first seen with mtime 1719890979.0286973
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/site.py first seen with mtime 1685867727.7854247
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/concurrent/__init__.py first seen with mtime 1685867728.111777
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/lexer.py first seen with mtime 1719890977.091388
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/security/base.py first seen with mtime 1719890979.0213134
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/staticfiles/apps.py first seen with mtime 1719890979.0029213
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/__init__.py first seen with mtime 1719890977.233552
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/urls.py first seen with mtime 1719890979.0198293
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/generic/__init__.py first seen with mtime 1719890979.1979167
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/sql.py first seen with mtime 1719890977.0918567
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/__init__.py first seen with mtime 1719890977.9379797
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/fields/generated.py first seen with mtime 1719890979.0934234
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/operations/models.py first seen with mtime 1719890979.083837
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/templatetags/admin_urls.py first seen with mtime 1719890977.8264666
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/urls/utils.py first seen with mtime 1719890979.1730118
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/pathlib.py first seen with mtime 1685867727.664326
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/autoreload.py first seen with mtime 1719890979.1753185
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/importlib/util.py first seen with mtime 1685867729.5338442
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/messages/middleware.py first seen with mtime 1719890978.5985887
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/__init__.py first seen with mtime 1719890979.0091772
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/library.py first seen with mtime 1719890979.1570938
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/checks.py first seen with mtime 1719890977.516652
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/genericpath.py first seen with mtime 1685867727.5344975
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/log.py first seen with mtime 1719890979.1850867
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/formatter.py first seen with mtime 1719890977.0904574
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/_parseaddr.py first seen with mtime 1685867728.4640126
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/wsgiref/__init__.py first seen with mtime 1685867730.3319578
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_hashlib.cpython-310-darwin.so first seen with mtime 1685867696.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/cache/backends/filebased.py first seen with mtime 1719890979.0145948
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/http/client.py first seen with mtime 1685867729.116069
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/inspect.py first seen with mtime 1685867727.5848103
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/json/scanner.py first seen with mtime 1685867729.5863538
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/streams.py first seen with mtime 1685867728.0608225
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/math.cpython-310-darwin.so first seen with mtime 1685867691.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/re.py first seen with mtime 1685867727.7421432
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/headerregistry.py first seen with mtime 1685867728.5074694
+File /Users/apple/Documents/banking/banking_app/accounts/forms.py first seen with mtime 1719911716.6223016
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/exceptions.py first seen with mtime 1719890979.0099301
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/_os.py first seen with mtime 1719890979.1740499
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/validators.py first seen with mtime 1719890977.945354
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/html/__init__.py first seen with mtime 1685867729.0963974
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/dispatch/dispatcher.py first seen with mtime 1719890979.103651
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/mime/multipart.py first seen with mtime 1685867728.5624444
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/decorators/common.py first seen with mtime 1719890979.1956997
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/messages/__init__.py first seen with mtime 1719890978.5967877
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/engine/__init__.py first seen with mtime 1719890977.0931025
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/async_checks.py first seen with mtime 1719890979.0165496
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/validators.py first seen with mtime 1719890979.0115342
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_opcode.cpython-310-darwin.so first seen with mtime 1685867692.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/templatetags/__init__.py first seen with mtime 1719890977.825192
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/security/csrf.py first seen with mtime 1719890979.0216734
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/base.py first seen with mtime 1719890979.0857666
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/_encoded_words.py first seen with mtime 1685867728.4560618
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/filters/reindent.py first seen with mtime 1719890977.0965717
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/password_validation.py first seen with mtime 1719890977.943894
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/base/__init__.py first seen with mtime 1719890979.0535164
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/functions/__init__.py first seen with mtime 1719890979.0969307
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/exceptions.py first seen with mtime 1719890977.5174482
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/middleware/cache.py first seen with mtime 1719890979.1480188
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/_compression.py first seen with mtime 1685867727.3278227
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/quopri.py first seen with mtime 1685867727.7343311
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/admin.py first seen with mtime 1719890977.9383879
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/trsock.py first seen with mtime 1685867728.0805545
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/sql/constants.py first seen with mtime 1719890979.1008432
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/policy.py first seen with mtime 1685867728.5233037
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/regex_helper.py first seen with mtime 1719890979.1866064
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/handlers/base.py first seen with mtime 1719890979.029119
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/manager.py first seen with mtime 1719890979.0892663
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/apps.py first seen with mtime 1719890977.516155
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/base/operations.py first seen with mtime 1719890979.0560338
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/handlers/exception.py first seen with mtime 1719890979.0295208
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/collections/abc.py first seen with mtime 1685867728.1041837
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/contenttypes/views.py first seen with mtime 1719890978.0770376
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/serializers/python.py first seen with mtime 1719890979.048895
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/loaders/__init__.py first seen with mtime 1719890979.1620092
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/decorators/__init__.py first seen with mtime 1719890979.1945672
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/decimal.py first seen with mtime 1685867727.4915867
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/fields/__init__.py first seen with mtime 1719890979.0925522
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/tokens.py first seen with mtime 1719890977.9446187
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/heapq.py first seen with mtime 1685867727.5653658
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/templatetags/log.py first seen with mtime 1719890977.827361
+File /Users/apple/Documents/banking/banking_app/accounts/admin.py first seen with mtime 1719890999.6719263
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/contenttypes/__init__.py first seen with mtime 1719890978.0727136
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/paginator.py first seen with mtime 1719890979.010323
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/__init__.py first seen with mtime 1685867727.974233
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/traceback.py first seen with mtime 1685867727.9033575
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/__init__.py first seen with mtime 1719890979.0224633
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/dis.py first seen with mtime 1685867727.4993725
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/iterators.py first seen with mtime 1685867728.511347
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_lzma.cpython-310-darwin.so first seen with mtime 1685867697.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/numbers.py first seen with mtime 1685867727.6448402
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_blake2.cpython-310-darwin.so first seen with mtime 1685867697.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/futures.py first seen with mtime 1685867728.0175319
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/signals.py first seen with mtime 1719890977.9442582
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/sqlite3/dbapi2.py first seen with mtime 1685867730.0492454
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/state.py first seen with mtime 1719890979.0814261
+File /Users/apple/Documents/banking/banking_app/accounts/urls.py first seen with mtime 1719906460.9695132
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/options.py first seen with mtime 1719890977.5200715
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/cli.py first seen with mtime 1719890977.0896573
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/database.py first seen with mtime 1719890979.0172286
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/http/multipartparser.py first seen with mtime 1719890979.146356
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/fields/files.py first seen with mtime 1719890979.0930183
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/templatetags/cache.py first seen with mtime 1719890979.1647103
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/staticfiles/handlers.py first seen with mtime 1719890979.0041142
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/signals.py first seen with mtime 1719890979.010699
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/_header_value_parser.py first seen with mtime 1685867728.4600768
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_socket.cpython-310-darwin.so first seen with mtime 1685867696.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/smartif.py first seen with mtime 1719890979.158738
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_statistics.cpython-310-darwin.so first seen with mtime 1685867692.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/lorem_ipsum.py first seen with mtime 1719890979.185484
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/generic/edit.py first seen with mtime 1719890979.199524
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/_collections_abc.py first seen with mtime 1685867727.3199394
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/templatetags/tz.py first seen with mtime 1719890979.166247
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/log.py first seen with mtime 1685867728.0254774
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/sqlite3/introspection.py first seen with mtime 1719890979.0750206
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/uploadhandler.py first seen with mtime 1719890979.0253267
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/management/color.py first seen with mtime 1719890979.0354218
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/__init__.py first seen with mtime 1719890977.0888228
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/array.cpython-310-darwin.so first seen with mtime 1685867691.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/pprint.py first seen with mtime 1685867727.7034018
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/signing.py first seen with mtime 1719890979.011108
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/gzip.py first seen with mtime 1685867727.5576057
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/selectors.py first seen with mtime 1685867727.7655494
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/pickle.py first seen with mtime 1685867727.6722658
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/version.py first seen with mtime 1719890979.1893268
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/utils.py first seen with mtime 1719890979.0532024
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/filters/right_margin.py first seen with mtime 1719890977.0969403
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/difflib.py first seen with mtime 1685867727.495516
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/functools.py first seen with mtime 1685867727.530667
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/sslproto.py first seen with mtime 1685867728.052697
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/cache.py first seen with mtime 1719890979.1757455
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/mail/__init__.py first seen with mtime 1719890979.0304008
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/contextvars.py first seen with mtime 1685867727.4643142
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/__init__.py first seen with mtime 1719890979.0162098
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/threading.py first seen with mtime 1685867727.8839602
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/uu.py first seen with mtime 1685867727.9272285
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/static.py first seen with mtime 1719890979.1941843
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/hmac.py first seen with mtime 1685867727.569215
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/registry.py first seen with mtime 1719890979.0186985
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/forms/forms.py first seen with mtime 1719890979.1058006
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/json/__init__.py first seen with mtime 1685867729.5745685
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/bisect.py first seen with mtime 1685867727.4059641
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/decorators/debug.py first seen with mtime 1719890979.1963944
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/storage/mixins.py first seen with mtime 1719890979.0279477
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/sql/__init__.py first seen with mtime 1719890979.0997949
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/storage/filesystem.py first seen with mtime 1719890979.0268507
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/cache/backends/base.py first seen with mtime 1719890979.0133622
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/pkgutil.py first seen with mtime 1685867727.6840112
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/servers/__init__.py first seen with mtime 1719890979.050066
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/connection.py first seen with mtime 1719890979.176464
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/importlib/_abc.py first seen with mtime 1685867729.4982264
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/struct.py first seen with mtime 1685867727.8407984
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/translation.py first seen with mtime 1719890979.0194461
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/translation/trans_real.py first seen with mtime 1719890979.1917465
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sessions/backends/base.py first seen with mtime 1719890978.7961905
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/sqlite3/creation.py first seen with mtime 1719890979.0741615
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/staticfiles/finders.py first seen with mtime 1719890979.0037413
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/fields/proxy.py first seen with mtime 1719890979.0945752
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/__init__.py first seen with mtime 1719890979.1922042
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/subprocess.py first seen with mtime 1685867728.0647278
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/staticfiles/views.py first seen with mtime 1719890979.005963
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/contentmanager.py first seen with mtime 1685867728.4837618
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/functions/text.py first seen with mtime 1719890979.0988986
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/generic/list.py first seen with mtime 1719890979.199905
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/wsgi.py first seen with mtime 1719890979.0118961
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/functions/math.py first seen with mtime 1719890979.0981338
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py first seen with mtime 1719890979.1539824
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/staticfiles/__init__.py first seen with mtime 1719890979.0025706
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py first seen with mtime 1719890979.09608
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/__init__.py first seen with mtime 1719890979.050935
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/fields/related_descriptors.py first seen with mtime 1719890979.0956972
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/glob.py first seen with mtime 1685867727.5499074
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/middleware.py first seen with mtime 1719890977.9426477
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_queue.cpython-310-darwin.so first seen with mtime 1685867692.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sessions/exceptions.py first seen with mtime 1719890978.7942626
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/ast.py first seen with mtime 1685867727.3825307
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/encodings/utf_8.py first seen with mtime 1685867729.0430343
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/locks.py first seen with mtime 1719890979.0236638
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/binascii.cpython-310-darwin.so first seen with mtime 1685867697.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/concurrent/futures/thread.py first seen with mtime 1685867728.1313682
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/format_helpers.py first seen with mtime 1685867728.013663
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/transports.py first seen with mtime 1685867728.076635
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/dispatch/__init__.py first seen with mtime 1719890979.1032622
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/importlib/machinery.py first seen with mtime 1685867729.5221064
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/conf/__init__.py first seen with mtime 1719890977.2363048
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/zoneinfo/__init__.py first seen with mtime 1685867730.481448
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/exceptions.py first seen with mtime 1719890979.0775595
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/contenttypes/management/__init__.py first seen with mtime 1719890978.1691682
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/deconstruct.py first seen with mtime 1719890979.178898
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/engine/grouping.py first seen with mtime 1719890977.0942292
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sessions/apps.py first seen with mtime 1719890978.793518
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/utils.py first seen with mtime 1685867728.5312333
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/hashable.py first seen with mtime 1719890979.1823127
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_posixsubprocess.cpython-310-darwin.so first seen with mtime 1685867693.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/constants.py first seen with mtime 1719890979.0861948
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/dates.py first seen with mtime 1719890979.1784453
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/select.cpython-310-darwin.so first seen with mtime 1685867693.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/parser.py first seen with mtime 1685867728.5194626
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/importlib/__init__.py first seen with mtime 1685867729.4942648
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/fields/json.py first seen with mtime 1719890979.0938566
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/zlib.cpython-310-darwin.so first seen with mtime 1685867697.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/protocols.py first seen with mtime 1685867728.037202
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_sha512.cpython-310-darwin.so first seen with mtime 1685867696.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/urls/base.py first seen with mtime 1719890979.1710892
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_random.cpython-310-darwin.so first seen with mtime 1685867691.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/sql/subqueries.py first seen with mtime 1719890979.102369
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/wsgiref/headers.py first seen with mtime 1685867730.3399076
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/functions/mixins.py first seen with mtime 1719890979.0984862
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/generic/dates.py first seen with mtime 1719890979.198709
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/codecs.py first seen with mtime 1685867727.440817
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/enums.py first seen with mtime 1719890979.0873835
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/exceptions.py first seen with mtime 1719890979.1566687
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/generic/base.py first seen with mtime 1719890979.1982882
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_decimal.cpython-310-darwin.so first seen with mtime 1685867705.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/autoreload.py first seen with mtime 1719890979.1534762
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/decorators/cache.py first seen with mtime 1719890979.1949742
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/base/introspection.py first seen with mtime 1719890979.055558
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/decorators.py first seen with mtime 1719890979.1792946
+File /Users/apple/Documents/banking/banking_app/accounts/views.py first seen with mtime 1719911781.8531213
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/crypto.py first seen with mtime 1719890979.1768317
+File /Users/apple/Documents/banking/banking_app/accounts/__init__.py first seen with mtime 1719890999.6685202
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/argparse.py first seen with mtime 1685867727.378668
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/loaders/filesystem.py first seen with mtime 1719890979.163588
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/fields/mixins.py first seen with mtime 1719890979.0942333
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/security/__init__.py first seen with mtime 1719890979.0209117
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/templatetags/admin_list.py first seen with mtime 1719890977.8256812
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/mixins.py first seen with mtime 1685867728.0293307
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/queues.py first seen with mtime 1685867728.0409758
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/operations/base.py first seen with mtime 1719890979.0830183
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/dateformat.py first seen with mtime 1719890979.1776884
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/decorators.py first seen with mtime 1719890977.94129
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/debug.py first seen with mtime 1719890979.1930194
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/choices.py first seen with mtime 1719890979.1761127
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/formats.py first seen with mtime 1719890979.1815012
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/views/autocomplete.py first seen with mtime 1719890977.828099
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/itercompat.py first seen with mtime 1719890979.1843257
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/__init__.py first seen with mtime 1719890977.5154428
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/loader_tags.py first seen with mtime 1719890979.1579196
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/multiprocessing/__init__.py first seen with mtime 1685867729.9224906
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/context.py first seen with mtime 1719890979.1544366
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/sql/query.py first seen with mtime 1719890979.1019795
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/loaders/app_directories.py first seen with mtime 1719890979.162375
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/gettext.py first seen with mtime 1685867727.54601
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/images.py first seen with mtime 1719890979.023227
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/stat.py first seen with mtime 1685867727.8253112
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/copyreg.py first seen with mtime 1685867727.4720879
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/http/__init__.py first seen with mtime 1685867729.1121044
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/unicodedata.cpython-310-darwin.so first seen with mtime 1685867694.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/urllib/request.py first seen with mtime 1685867730.2771838
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/timezone.py first seen with mtime 1719890979.188575
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/views/__init__.py first seen with mtime 1719890977.8277016
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/messages/utils.py first seen with mtime 1719890978.5993383
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/backends/django.py first seen with mtime 1719890979.160481
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/signal.py first seen with mtime 1685867727.781268
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/defaulttags.py first seen with mtime 1719890979.1558108
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/base/creation.py first seen with mtime 1719890979.0547369
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/contenttypes/models.py first seen with mtime 1719890978.076308
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/deprecation.py first seen with mtime 1719890979.1797051
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/wsgiref/util.py first seen with mtime 1685867730.347775
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/templatetags/i18n.py first seen with mtime 1719890979.1651385
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/serializers/base.py first seen with mtime 1719890979.0477333
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/uploadedfile.py first seen with mtime 1719890979.0249386
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/__init__.py first seen with mtime 1719890979.0847034
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/urls/conf.py first seen with mtime 1719890979.1714795
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/deletion.py first seen with mtime 1719890979.087001
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/logging/__init__.py first seen with mtime 1685867729.9062994
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/management/commands/runserver.py first seen with mtime 1719890979.042663
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/fcntl.cpython-310-darwin.so first seen with mtime 1685867692.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/cache/__init__.py first seen with mtime 1719890979.012304
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/management/base.py first seen with mtime 1719890979.035009
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/zoneinfo/_common.py first seen with mtime 1685867730.4854271
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/multiprocessing/context.py first seen with mtime 1685867729.9304006
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/numberformat.py first seen with mtime 1719890979.1862233
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/contenttypes/checks.py first seen with mtime 1719890978.0745978
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_uuid.cpython-310-darwin.so first seen with mtime 1685867700.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/utils.py first seen with mtime 1719890979.0256999
+File /Users/apple/Documents/banking/banking_app/banking_app/settings.py first seen with mtime 1719911820.6085875
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/handlers/__init__.py first seen with mtime 1719890979.0282753
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/text.py first seen with mtime 1719890979.1878095
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/storage/memory.py first seen with mtime 1719890979.027582
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/helpers.py first seen with mtime 1719890977.5189137
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/forms/fields.py first seen with mtime 1719890979.105358
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/io.py first seen with mtime 1685867727.5887134
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/mime/text.py first seen with mtime 1685867728.5703049
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_bisect.cpython-310-darwin.so first seen with mtime 1685867691.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_ssl.cpython-310-darwin.so first seen with mtime 1685867697.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/generator.py first seen with mtime 1685867728.4994745
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/mime/nonmultipart.py first seen with mtime 1685867728.5664499
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/enum.py first seen with mtime 1685867727.5072558
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lzma.py first seen with mtime 1685867727.60828
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/message.py first seen with mtime 1685867728.5153632
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/apps/registry.py first seen with mtime 1719890977.2358248
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/timesince.py first seen with mtime 1719890979.1881793
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/messages/apps.py first seen with mtime 1719890978.597546
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/messages.py first seen with mtime 1719890979.017928
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/middleware/security.py first seen with mtime 1719890979.1523404
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/multiprocessing/process.py first seen with mtime 1685867729.9662914
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/getpass.py first seen with mtime 1685867727.5422163
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/sqlite3/_functions.py first seen with mtime 1719890979.0728438
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/compatibility/__init__.py first seen with mtime 1719890979.0201597
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sessions/middleware.py first seen with mtime 1719890978.7946196
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/middleware/common.py first seen with mtime 1719890979.1492364
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/lookups.py first seen with mtime 1719890979.0888524
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/ddl_references.py first seen with mtime 1719890979.052438
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/safestring.py first seen with mtime 1719890979.1869676
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/mime/message.py first seen with mtime 1685867728.558477
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/sqlite3/__init__.py first seen with mtime 1685867730.0452752
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/utils.py first seen with mtime 1719890977.092604
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/options.py first seen with mtime 1719890979.089775
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/sqlite3/features.py first seen with mtime 1719890979.0745764
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_bz2.cpython-310-darwin.so first seen with mtime 1685867697.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/forms/__init__.py first seen with mtime 1719890979.1044388
+File /Users/apple/Documents/banking/banking_app/manage.py first seen with mtime 1719890999.1337142
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/forms/renderers.py first seen with mtime 1719890979.107166
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/datastructures.py first seen with mtime 1719890979.1772785
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/concurrent/futures/_base.py first seen with mtime 1685867728.1235223
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/string.py first seen with mtime 1685867727.8331375
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/encoding.py first seen with mtime 1719890979.180666
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/backends.py first seen with mtime 1719890977.9391544
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/linecache.py first seen with mtime 1685867727.6004734
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/_compat_pickle.py first seen with mtime 1685867727.3238733
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/runners.py first seen with mtime 1685867728.0449002
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/mail/utils.py first seen with mtime 1719890979.0313096
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/_markupbase.py first seen with mtime 1685867727.3317273
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/loader.py first seen with mtime 1719890979.1574702
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/contenttypes/apps.py first seen with mtime 1719890978.0740163
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/query_utils.py first seen with mtime 1719890979.0909793
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/functions/comparison.py first seen with mtime 1719890979.0973177
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/widgets.py first seen with mtime 1719890977.5218754
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/files.py first seen with mtime 1719890979.0175757
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sessions/__init__.py first seen with mtime 1719890978.7931294
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/asgiref/current_thread_executor.py first seen with mtime 1719890977.147004
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_heapq.cpython-310-darwin.so first seen with mtime 1685867691.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/base_subprocess.py first seen with mtime 1685867727.990213
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/asgiref/sync.py first seen with mtime 1719890977.1484506
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/signals.py first seen with mtime 1719890979.0913537
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/backends/base.py first seen with mtime 1719890979.1600652
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/weakref.py first seen with mtime 1685867727.9428804
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/sqlite3/client.py first seen with mtime 1719890979.073776
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/sqlite3/base.py first seen with mtime 1719890979.0733695
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/functional.py first seen with mtime 1719890979.1819365
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/dateparse.py first seen with mtime 1719890979.178063
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/__init__.py first seen with mtime 1719890979.076378
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/generic/detail.py first seen with mtime 1719890979.1991234
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/inspect.py first seen with mtime 1719890979.1835237
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/filters/output.py first seen with mtime 1719890977.0961528
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/query.py first seen with mtime 1719890979.0905206
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/staggered.py first seen with mtime 1685867728.05674
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/tasks.py first seen with mtime 1685867728.0688188
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/middleware/csrf.py first seen with mtime 1719890979.1499236
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/cache/backends/__init__.py first seen with mtime 1719890979.0129666
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sessions/base_session.py first seen with mtime 1719890978.7938993
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/http.py first seen with mtime 1719890979.1831563
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/staticfiles/utils.py first seen with mtime 1719890979.0056179
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sessions/backends/__init__.py first seen with mtime 1719890978.7957504
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/functions/datetime.py first seen with mtime 1719890979.0977428
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/utils.py first seen with mtime 1719890979.0517416
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/os.py first seen with mtime 1685867727.6604483
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/logging/config.py first seen with mtime 1685867729.9103582
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/fields/reverse_related.py first seen with mtime 1719890979.0964942
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/forms/formsets.py first seen with mtime 1719890979.1062286
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/statistics.py first seen with mtime 1685867727.829199
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/models.py first seen with mtime 1719890977.9434817
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/__init__.py first seen with mtime 1719890979.15304
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/asgiref/__init__.py first seen with mtime 1719890977.1462529
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/base_events.py first seen with mtime 1685867727.9822335
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/messages/storage/base.py first seen with mtime 1719890978.600608
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/operations/special.py first seen with mtime 1719890979.084266
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/threads.py first seen with mtime 1685867728.072771
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/messages/constants.py first seen with mtime 1719890978.5978968
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/_osx_support.py first seen with mtime 1685867727.3355708
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/mime/base.py first seen with mtime 1685867728.5506842
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/urls/resolvers.py first seen with mtime 1719890979.1726072
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/storage/base.py first seen with mtime 1719890979.0264738
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/mimetypes.py first seen with mtime 1685867727.6200109
+File /Users/apple/Documents/banking/banking_app/accounts/models.py first seen with mtime 1719911669.991205
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/logging/handlers.py first seen with mtime 1685867729.9143887
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/apps/config.py first seen with mtime 1719890977.2353795
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/views/main.py first seen with mtime 1719890977.8289568
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/filters/tokens.py first seen with mtime 1719890977.0973027
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/keywords.py first seen with mtime 1719890977.0909266
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_scproxy.cpython-310-darwin.so first seen with mtime 1685867697.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/staticfiles/management/commands/runserver.py first seen with mtime 1719890979.0077512
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/engine/statement_splitter.py first seen with mtime 1719890977.0946362
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/checks.py first seen with mtime 1719890977.9399035
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/expressions.py first seen with mtime 1719890979.0879898
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/__init__.py first seen with mtime 1719890977.5149822
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/defaultfilters.py first seen with mtime 1719890979.1552794
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/graphlib.py first seen with mtime 1685867727.5537815
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/urllib/parse.py first seen with mtime 1685867730.273164
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/models.py first seen with mtime 1719890977.519336
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_pickle.cpython-310-darwin.so first seen with mtime 1685867695.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/fractions.py first seen with mtime 1685867727.5228252
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/locale.py first seen with mtime 1685867727.604337
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/sre_constants.py first seen with mtime 1685867727.81321
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/operations/fields.py first seen with mtime 1719890979.083391
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/sites.py first seen with mtime 1719890977.5205739
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/security/sessions.py first seen with mtime 1719890979.0220273
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/posixpath.py first seen with mtime 1685867727.6995254
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/token.py first seen with mtime 1685867727.8917537
+File /Users/apple/Documents/banking/banking_app/banking_app/urls.py first seen with mtime 1719906264.1490295
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/urls/__init__.py first seen with mtime 1719890979.1707053
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/signals.py first seen with mtime 1719890979.0528078
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/fnmatch.py first seen with mtime 1685867727.5189934
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/platform.py first seen with mtime 1685867727.687926
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/socket.py first seen with mtime 1685867727.8013256
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/_weakrefset.py first seen with mtime 1685867727.3632178
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/errors.py first seen with mtime 1685867728.4916217
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/http/request.py first seen with mtime 1719890979.1468308
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/secrets.py first seen with mtime 1685867727.7616637
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/forms/widgets.py first seen with mtime 1719890979.1080375
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/asgiref/local.py first seen with mtime 1719890977.1473753
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/keyword.py first seen with mtime 1685867727.596617
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/quoprimime.py first seen with mtime 1685867728.5272977
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/forms.py first seen with mtime 1719890977.9417262
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/handlers/wsgi.py first seen with mtime 1719890979.0299306
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/urls/exceptions.py first seen with mtime 1719890979.1721733
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/base64mime.py first seen with mtime 1685867728.475877
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/uuid.py first seen with mtime 1685867727.9311447
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/urls/converters.py first seen with mtime 1719890979.1718447
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/utils.py first seen with mtime 1719890977.5214322
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sites/shortcuts.py first seen with mtime 1719890978.9007063
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/types.py first seen with mtime 1685867727.9192066
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/concurrent/futures/__init__.py first seen with mtime 1685867728.1195297
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/templates.py first seen with mtime 1719890979.019075
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/operations/__init__.py first seen with mtime 1719890979.0826654
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/wsgiref/simple_server.py first seen with mtime 1685867730.3438778
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/templatetags/base.py first seen with mtime 1719890977.8268604
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/base64.py first seen with mtime 1685867727.3942332
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/management/commands/__init__.py first seen with mtime 1719890979.036878
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/loaders/cached.py first seen with mtime 1719890979.163136
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/html/parser.py first seen with mtime 1685867729.104257
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/translation/reloader.py first seen with mtime 1719890979.1905057
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/termcolors.py first seen with mtime 1719890979.1873722
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/socketserver.py first seen with mtime 1685867727.8052986
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/contextlib.py first seen with mtime 1685867727.460481
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/compatibility/django_4_0.py first seen with mtime 1719890979.0205622
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/indexes.py first seen with mtime 1719890979.088405
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/base/client.py first seen with mtime 1719890979.0543315
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/mail/message.py first seen with mtime 1719890979.0308516
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/ipv6.py first seen with mtime 1719890979.1839714
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/base/base.py first seen with mtime 1719890979.0539665
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/dataclasses.py first seen with mtime 1685867727.4837124
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/decorators.py first seen with mtime 1719890977.517078
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/sre_parse.py first seen with mtime 1685867727.8170493
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_struct.cpython-310-darwin.so first seen with mtime 1685867691.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/base_tasks.py first seen with mtime 1685867727.9940732
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/multiprocessing/reduction.py first seen with mtime 1685867729.9742634
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/functions/window.py first seen with mtime 1719890979.0993474
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/coroutines.py first seen with mtime 1685867728.001867
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/http/__init__.py first seen with mtime 1719890979.145574
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/apps.py first seen with mtime 1719890977.9387689
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/collections/__init__.py first seen with mtime 1685867728.100136
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_zoneinfo.cpython-310-darwin.so first seen with mtime 1685867691.0
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/warnings.py first seen with mtime 1685867727.9350502
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/unix_events.py first seen with mtime 1685867728.0845513
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/urllib/__init__.py first seen with mtime 1685867730.2653775
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/checks/model_checks.py first seen with mtime 1719890979.0183105
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/i18n.py first seen with mtime 1719890979.1938128
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/tree.py first seen with mtime 1719890979.1889594
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/base_futures.py first seen with mtime 1685867727.986282
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/contenttypes/fields.py first seen with mtime 1719890978.075305
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/translation/__init__.py first seen with mtime 1719890979.1901114
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/loaders/base.py first seen with mtime 1719890979.162742
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/utils.py first seen with mtime 1719890979.091715
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/sql/datastructures.py first seen with mtime 1719890979.1012092
+File /Users/apple/Documents/banking/banking_app/accounts/apps.py first seen with mtime 1719891000.1111538
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/http/server.py first seen with mtime 1685867729.1282058
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/files/base.py first seen with mtime 1719890979.022836
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/backends/base/validation.py first seen with mtime 1719890979.057128
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/http/cookie.py first seen with mtime 1719890979.1459072
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/cache/utils.py first seen with mtime 1719890979.0126648
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/serializers/__init__.py first seen with mtime 1719890979.0473456
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/email/_policybase.py first seen with mtime 1685867728.468029
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_contextvars.cpython-310-darwin.so first seen with mtime 1685867691.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/response.py first seen with mtime 1719890979.1583376
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/utils/module_loading.py first seen with mtime 1719890979.1858578
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/apps/__init__.py first seen with mtime 1719890977.2349205
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload/_sqlite3.cpython-310-darwin.so first seen with mtime 1685867699.0
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sites/__init__.py first seen with mtime 1719890978.8972101
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sites/requests.py first seen with mtime 1719890978.9003384
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/management/__init__.py first seen with mtime 1719890979.034452
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/engine/filter_stack.py first seen with mtime 1719890977.0936832
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/copy.py first seen with mtime 1685867727.4682345
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/ssl.py first seen with mtime 1685867727.8212492
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/asyncio/events.py first seen with mtime 1685867728.0057247
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/abc.py first seen with mtime 1685867727.3670614
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/sqlparse/filters/aligned_indent.py first seen with mtime 1719890977.0954282
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/forms/models.py first seen with mtime 1719890979.1067767
+File /Users/apple/Documents/banking/banking_app/accounts/templates/home.html first seen with mtime 1719891547.7787104
+File /Users/apple/Documents/banking/banking_app/accounts/templates/accounts first seen with mtime 1719907664.7381024
+File /Users/apple/Documents/banking/banking_app/accounts/templates/accounts/account_list.html first seen with mtime 1719908127.25602
+File /Users/apple/Documents/banking/banking_app/accounts/templates/accounts/profile.html first seen with mtime 1719906264.1440775
+File /Users/apple/Documents/banking/banking_app/accounts/templates/accounts/create_transaction.html first seen with mtime 1719907631.9830241
+File /Users/apple/Documents/banking/banking_app/accounts/templates/accounts/transaction_history.html first seen with mtime 1719908144.2860744
+File /Users/apple/Documents/banking/banking_app/accounts/templates/accounts/register.html first seen with mtime 1719891468.765409
+File /Users/apple/Documents/banking/banking_app/accounts/templates/accounts/login.html first seen with mtime 1719891488.2324598
+File /Users/apple/Documents/banking/banking_app/accounts/templates/accounts/create_account.html first seen with mtime 1719908112.2540708
+File /Users/apple/Documents/banking/banking_app/accounts/templates/accounts/account_detail.html first seen with mtime 1719908756.36906
+File /Users/apple/Documents/banking/banking_app/accounts/templates/accounts/transaction_error.html first seen with mtime 1719908153.656825
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/loader.py first seen with mtime 1719890979.0788927
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/0010_alter_group_name_max_length.py first seen with mtime 1719890978.068569
+File /Users/apple/Documents/banking/banking_app/accounts/migrations/__init__.py first seen with mtime 1719890999.6782362
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/0008_alter_user_username_max_length.py first seen with mtime 1719890978.0674236
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sessions/backends/db.py first seen with mtime 1719890978.797572
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/middleware/clickjacking.py first seen with mtime 1719890979.1486084
+File /Users/apple/Documents/banking/banking_app/accounts/migrations/0001_initial.py first seen with mtime 1719891045.7250614
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/csrf.py first seen with mtime 1719890979.19258
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/migrations/__init__.py first seen with mtime 1719890977.7317178
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/migrations/0003_logentry_add_action_flag_choices.py first seen with mtime 1719890977.7314436
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/recorder.py first seen with mtime 1719890979.0805101
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/migrations/0001_initial.py first seen with mtime 1719890977.7305415
+File /Users/apple/Documents/banking/banking_app/banking_app/wsgi.py first seen with mtime 1719890999.1237786
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/core/cache/backends/locmem.py first seen with mtime 1719890979.014998
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/0009_alter_user_last_name_max_length.py first seen with mtime 1719890978.0679998
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/graph.py first seen with mtime 1719890979.0784461
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/0005_alter_user_last_login_null.py first seen with mtime 1719890978.0656433
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/__init__.py first seen with mtime 1719890978.0701969
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/migrations/executor.py first seen with mtime 1719890979.0780118
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/0002_alter_permission_name_max_length.py first seen with mtime 1719890978.0639184
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/0011_update_proxy_permissions.py first seen with mtime 1719890978.069183
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/0007_alter_validators_add_error_messages.py first seen with mtime 1719890978.0668395
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sessions/migrations/__init__.py first seen with mtime 1719890978.8947928
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/0001_initial.py first seen with mtime 1719890978.063306
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/db/models/sql/compiler.py first seen with mtime 1719890979.1004624
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/admin/migrations/0002_logentry_remove_auto_add.py first seen with mtime 1719890977.7309816
+File /Users/apple/Documents/banking/banking_app/accounts/migrations/0003_transaction_transfer_to_alter_transaction_account_and_more.py first seen with mtime 1719907480.5408962
+File /Users/apple/Documents/banking/banking_app/accounts/migrations/0002_rename_created_at_transaction_timestamp_and_more.py first seen with mtime 1719906365.966549
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/encodings/idna.py first seen with mtime 1685867728.8070412
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sessions/migrations/0001_initial.py first seen with mtime 1719890978.8945587
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/0003_alter_user_email_max_length.py first seen with mtime 1719890978.0644903
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/conf/urls/__init__.py first seen with mtime 1719890977.5139623
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/0012_alter_user_first_name_max_length.py first seen with mtime 1719890978.0697951
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/0006_require_contenttypes_0002.py first seen with mtime 1719890978.0662377
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/contenttypes/migrations/__init__.py first seen with mtime 1719890978.1714065
+File /Users/apple/.pyenv/versions/3.10.0/lib/python3.10/stringprep.py first seen with mtime 1685867727.836995
+File /Users/apple/Documents/banking/banking_app/accounts/migrations/0004_alter_bankaccount_balance_and_more.py first seen with mtime 1719911678.8883784
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/views/defaults.py first seen with mtime 1719890979.1934013
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/migrations/0004_alter_user_username_opts.py first seen with mtime 1719890978.0650713
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/contenttypes/migrations/0001_initial.py first seen with mtime 1719890978.1703424
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/contenttypes/migrations/0002_remove_content_type_name.py first seen with mtime 1719890978.1709907
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-02 09:17:26.640188' AND "django_session"."session_key" = 'yw1178s9lrkczr9n1lgdv52l72lw7kze') LIMIT 21; args=('2024-07-02 09:17:26.640188', 'yw1178s9lrkczr9n1lgdv52l72lw7kze'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE "accounts_bankaccount"."user_id" = 1; args=(1,); alias=default
+"GET /accounts/accounts/ HTTP/1.1" 200 1193
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/conf/locale/en/__init__.py first seen with mtime 1719890977.2821486
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/context_processors.py first seen with mtime 1719890979.1548414
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/messages/storage/cookie.py first seen with mtime 1719890978.601092
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/conf/locale/en/formats.py first seen with mtime 1719890977.282541
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/sessions/serializers.py first seen with mtime 1719890978.795339
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/messages/context_processors.py first seen with mtime 1719890978.5982363
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/messages/storage/session.py first seen with mtime 1719890978.601883
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/auth/context_processors.py first seen with mtime 1719890977.9408054
+File /Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/contrib/messages/storage/fallback.py first seen with mtime 1719890978.6014698
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-02 09:17:28.240425' AND "django_session"."session_key" = 'yw1178s9lrkczr9n1lgdv52l72lw7kze') LIMIT 21; args=('2024-07-02 09:17:28.240425', 'yw1178s9lrkczr9n1lgdv52l72lw7kze'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE ("accounts_bankaccount"."id" = 1 AND "accounts_bankaccount"."user_id" = 1) LIMIT 21; args=(1, 1); alias=default
+(0.000) SELECT "accounts_transaction"."id", "accounts_transaction"."account_id", "accounts_transaction"."amount", "accounts_transaction"."timestamp", "accounts_transaction"."transaction_type", "accounts_transaction"."transfer_to_id" FROM "accounts_transaction" WHERE "accounts_transaction"."account_id" = 1; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE "accounts_bankaccount"."user_id" = 1; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+Exception while resolving variable 'error' in template 'accounts/account_detail.html'.
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+AttributeError: type object 'RequestContext' has no attribute 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [error] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'EONT4PVna0cDWbaedARNYzv9toFHxtbw7T5APd2TQK1rcUcO5Yj6ZnNODUeySQfj'>, 'request': <WSGIRequest: GET '/accounts/account/1/'>, 'user': <SimpleLazyObject: <User: viratg>>, 'perms': PermWrapper(<SimpleLazyObject: <User: viratg>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/accounts/account/1/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'account': <BankAccount: viratg - 12345678>, 'transactions': <QuerySet [<Transaction: Deposit - 3456.00>, <Transaction: Deposit - 45.00>, <Transaction: Withdrawal - 0.04>, <Transaction: Transfer - 0.02>, <Transaction: Transfer - 456.00>]>, 'form': <TransactionForm bound=False, valid=False, fields=(amount;transaction_type;transfer_to)>}]
+"GET /accounts/account/1/ HTTP/1.1" 200 2671
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-02 09:17:51.095505' AND "django_session"."session_key" = 'yw1178s9lrkczr9n1lgdv52l72lw7kze') LIMIT 21; args=('2024-07-02 09:17:51.095505', 'yw1178s9lrkczr9n1lgdv52l72lw7kze'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE ("accounts_bankaccount"."id" = 1 AND "accounts_bankaccount"."user_id" = 1) LIMIT 21; args=(1, 1); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE ("accounts_bankaccount"."user_id" = 1 AND "accounts_bankaccount"."id" = 2) LIMIT 21; args=(1, 2); alias=default
+(0.000) SELECT 1 AS "a" FROM "accounts_bankaccount" WHERE "accounts_bankaccount"."id" = 2 LIMIT 1; args=(1, 2); alias=default
+(0.000) SELECT "accounts_transaction"."id", "accounts_transaction"."account_id", "accounts_transaction"."amount", "accounts_transaction"."timestamp", "accounts_transaction"."transaction_type", "accounts_transaction"."transfer_to_id" FROM "accounts_transaction" WHERE "accounts_transaction"."account_id" = 1; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE "accounts_bankaccount"."user_id" = 1; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+"POST /accounts/account/1/ HTTP/1.1" 200 2774
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-02 09:17:54.532100' AND "django_session"."session_key" = 'yw1178s9lrkczr9n1lgdv52l72lw7kze') LIMIT 21; args=('2024-07-02 09:17:54.532100', 'yw1178s9lrkczr9n1lgdv52l72lw7kze'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE ("accounts_bankaccount"."id" = 1 AND "accounts_bankaccount"."user_id" = 1) LIMIT 21; args=(1, 1); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE ("accounts_bankaccount"."user_id" = 1 AND "accounts_bankaccount"."id" = 2) LIMIT 21; args=(1, 2); alias=default
+(0.000) SELECT 1 AS "a" FROM "accounts_bankaccount" WHERE "accounts_bankaccount"."id" = 2 LIMIT 1; args=(1, 2); alias=default
+(0.002) UPDATE "accounts_bankaccount" SET "user_id" = 1, "account_number" = '12345678', "balance" = '67.96' WHERE "accounts_bankaccount"."id" = 1; args=(1, '12345678', '67.96', 1); alias=default
+(0.002) UPDATE "accounts_bankaccount" SET "user_id" = 1, "account_number" = 'werty', "balance" = '11149211.00' WHERE "accounts_bankaccount"."id" = 2; args=(1, 'werty', '11149211.00', 2); alias=default
+(0.001) INSERT INTO "accounts_transaction" ("account_id", "amount", "timestamp", "transaction_type", "transfer_to_id") VALUES (1, '38000.00', '2024-07-02 09:17:54.536784', 'transfer', 2) RETURNING "accounts_transaction"."id"; args=(1, '38000.00', '2024-07-02 09:17:54.536784', 'transfer', 2); alias=default
+"POST /accounts/account/1/ HTTP/1.1" 302 0
+(0.001) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-02 09:17:54.551194' AND "django_session"."session_key" = 'yw1178s9lrkczr9n1lgdv52l72lw7kze') LIMIT 21; args=('2024-07-02 09:17:54.551194', 'yw1178s9lrkczr9n1lgdv52l72lw7kze'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE ("accounts_bankaccount"."id" = 1 AND "accounts_bankaccount"."user_id" = 1) LIMIT 21; args=(1, 1); alias=default
+(0.000) SELECT "accounts_transaction"."id", "accounts_transaction"."account_id", "accounts_transaction"."amount", "accounts_transaction"."timestamp", "accounts_transaction"."transaction_type", "accounts_transaction"."transfer_to_id" FROM "accounts_transaction" WHERE "accounts_transaction"."account_id" = 1; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE "accounts_bankaccount"."user_id" = 1; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+Exception while resolving variable 'error' in template 'accounts/account_detail.html'.
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+AttributeError: type object 'RequestContext' has no attribute 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [error] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'NbPZRdwbvkQbbrOOcxxe0wT759fdnWmWgg7GCBDHb4FZraQo4VZx1kbMfFO4IjqJ'>, 'request': <WSGIRequest: GET '/accounts/account/1/'>, 'user': <SimpleLazyObject: <User: viratg>>, 'perms': PermWrapper(<SimpleLazyObject: <User: viratg>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/accounts/account/1/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'account': <BankAccount: viratg - 12345678>, 'transactions': <QuerySet [<Transaction: Deposit - 3456.00>, <Transaction: Deposit - 45.00>, <Transaction: Withdrawal - 0.04>, <Transaction: Transfer - 0.02>, <Transaction: Transfer - 456.00>, <Transaction: Transfer - 38000.00>]>, 'form': <TransactionForm bound=False, valid=False, fields=(amount;transaction_type;transfer_to)>}]
+"GET /accounts/account/1/ HTTP/1.1" 200 2833
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-02 09:18:04.122511' AND "django_session"."session_key" = 'yw1178s9lrkczr9n1lgdv52l72lw7kze') LIMIT 21; args=('2024-07-02 09:18:04.122511', 'yw1178s9lrkczr9n1lgdv52l72lw7kze'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE "accounts_bankaccount"."user_id" = 1; args=(1,); alias=default
+"GET /accounts/accounts/ HTTP/1.1" 200 1190
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-02 09:18:10.569048' AND "django_session"."session_key" = 'yw1178s9lrkczr9n1lgdv52l72lw7kze') LIMIT 21; args=('2024-07-02 09:18:10.569048', 'yw1178s9lrkczr9n1lgdv52l72lw7kze'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE ("accounts_bankaccount"."id" = 2 AND "accounts_bankaccount"."user_id" = 1) LIMIT 21; args=(2, 1); alias=default
+(0.000) SELECT "accounts_transaction"."id", "accounts_transaction"."account_id", "accounts_transaction"."amount", "accounts_transaction"."timestamp", "accounts_transaction"."transaction_type", "accounts_transaction"."transfer_to_id" FROM "accounts_transaction" WHERE "accounts_transaction"."account_id" = 2; args=(2,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE "accounts_bankaccount"."user_id" = 1; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.001) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+Exception while resolving variable 'error' in template 'accounts/account_detail.html'.
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+AttributeError: type object 'RequestContext' has no attribute 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [error] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'VgSq0oCQ3qY5sRqx9IaRTY3WIyxvGvSKola7LMJmJaNTIAs716CaUMlBS46m1SWx'>, 'request': <WSGIRequest: GET '/accounts/account/2/'>, 'user': <SimpleLazyObject: <User: viratg>>, 'perms': PermWrapper(<SimpleLazyObject: <User: viratg>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/accounts/account/2/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'account': <BankAccount: viratg - werty>, 'transactions': <QuerySet [<Transaction: Transfer - 12345678.00>]>, 'form': <TransactionForm bound=False, valid=False, fields=(amount;transaction_type;transfer_to)>}]
+"GET /accounts/account/2/ HTTP/1.1" 200 2028
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-02 09:18:14.452461' AND "django_session"."session_key" = 'yw1178s9lrkczr9n1lgdv52l72lw7kze') LIMIT 21; args=('2024-07-02 09:18:14.452461', 'yw1178s9lrkczr9n1lgdv52l72lw7kze'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE ("accounts_bankaccount"."id" = 2 AND "accounts_bankaccount"."user_id" = 1) LIMIT 21; args=(2, 1); alias=default
+(0.000) SELECT "accounts_transaction"."id", "accounts_transaction"."account_id", "accounts_transaction"."amount", "accounts_transaction"."timestamp", "accounts_transaction"."transaction_type", "accounts_transaction"."transfer_to_id" FROM "accounts_transaction" WHERE "accounts_transaction"."account_id" = 2; args=(2,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE "accounts_bankaccount"."user_id" = 1; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+Exception while resolving variable 'error' in template 'accounts/account_detail.html'.
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+AttributeError: type object 'RequestContext' has no attribute 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [error] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: '4eOHdA5E20D4czQPzUr4ztBgyjYnDvP8xj6oYYcaIKsSsiSpriTnAhTVIPxeYSTV'>, 'request': <WSGIRequest: GET '/accounts/account/2/'>, 'user': <SimpleLazyObject: <User: viratg>>, 'perms': PermWrapper(<SimpleLazyObject: <User: viratg>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/accounts/account/2/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'account': <BankAccount: viratg - werty>, 'transactions': <QuerySet [<Transaction: Transfer - 12345678.00>]>, 'form': <TransactionForm bound=False, valid=False, fields=(amount;transaction_type;transfer_to)>}]
+"GET /accounts/account/2/ HTTP/1.1" 200 2028
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-02 09:18:18.652133' AND "django_session"."session_key" = 'yw1178s9lrkczr9n1lgdv52l72lw7kze') LIMIT 21; args=('2024-07-02 09:18:18.652133', 'yw1178s9lrkczr9n1lgdv52l72lw7kze'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE ("accounts_bankaccount"."id" = 3 AND "accounts_bankaccount"."user_id" = 1) LIMIT 21; args=(3, 1); alias=default
+(0.000) SELECT "accounts_transaction"."id", "accounts_transaction"."account_id", "accounts_transaction"."amount", "accounts_transaction"."timestamp", "accounts_transaction"."transaction_type", "accounts_transaction"."transfer_to_id" FROM "accounts_transaction" WHERE "accounts_transaction"."account_id" = 3; args=(3,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE "accounts_bankaccount"."user_id" = 1; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+Exception while resolving variable 'error' in template 'accounts/account_detail.html'.
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+AttributeError: type object 'RequestContext' has no attribute 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [error] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'T2yZ5fNlcBu5DiORiPl7opGr8w7N7cBfm7QGQDURSljTT1QradNqpdY6i2GEszF2'>, 'request': <WSGIRequest: GET '/accounts/account/3/'>, 'user': <SimpleLazyObject: <User: viratg>>, 'perms': PermWrapper(<SimpleLazyObject: <User: viratg>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/accounts/account/3/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'account': <BankAccount: viratg - 1234567h>, 'transactions': <QuerySet []>, 'form': <TransactionForm bound=False, valid=False, fields=(amount;transaction_type;transfer_to)>}]
+"GET /accounts/account/3/ HTTP/1.1" 200 1863
+(0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."expire_date" > '2024-07-02 09:18:21.837403' AND "django_session"."session_key" = 'yw1178s9lrkczr9n1lgdv52l72lw7kze') LIMIT 21; args=('2024-07-02 09:18:21.837403', 'yw1178s9lrkczr9n1lgdv52l72lw7kze'); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE ("accounts_bankaccount"."id" = 4 AND "accounts_bankaccount"."user_id" = 1) LIMIT 21; args=(4, 1); alias=default
+(0.000) SELECT "accounts_transaction"."id", "accounts_transaction"."account_id", "accounts_transaction"."amount", "accounts_transaction"."timestamp", "accounts_transaction"."transaction_type", "accounts_transaction"."transfer_to_id" FROM "accounts_transaction" WHERE "accounts_transaction"."account_id" = 4; args=(4,); alias=default
+(0.000) SELECT "accounts_bankaccount"."id", "accounts_bankaccount"."user_id", "accounts_bankaccount"."account_number", "accounts_bankaccount"."balance" FROM "accounts_bankaccount" WHERE "accounts_bankaccount"."user_id" = 1; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+(0.000) SELECT "auth_user"."id", "auth_user"."password", "auth_user"."last_login", "auth_user"."is_superuser", "auth_user"."username", "auth_user"."first_name", "auth_user"."last_name", "auth_user"."email", "auth_user"."is_staff", "auth_user"."is_active", "auth_user"."date_joined" FROM "auth_user" WHERE "auth_user"."id" = 1 LIMIT 21; args=(1,); alias=default
+Exception while resolving variable 'error' in template 'accounts/account_detail.html'.
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 875, in _resolve_lookup
+    current = current[bit]
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/context.py", line 83, in __getitem__
+    raise KeyError(key)
+KeyError: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 881, in _resolve_lookup
+    if isinstance(current, BaseContext) and getattr(
+AttributeError: type object 'RequestContext' has no attribute 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 891, in _resolve_lookup
+    current = current[int(bit)]
+ValueError: invalid literal for int() with base 10: 'error'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/Documents/banking/banking_env/lib/python3.10/site-packages/django/template/base.py", line 898, in _resolve_lookup
+    raise VariableDoesNotExist(
+django.template.base.VariableDoesNotExist: Failed lookup for key [error] in [{'True': True, 'False': False, 'None': None}, {'csrf_token': <SimpleLazyObject: 'TzhgT7ikZjLeVjwn8P7MqEWWQk09l3fBmEzXEvpQF3A2b2yX0dz5rseB0Qz0Gqjo'>, 'request': <WSGIRequest: GET '/accounts/account/4/'>, 'user': <SimpleLazyObject: <User: viratg>>, 'perms': PermWrapper(<SimpleLazyObject: <User: viratg>>), 'messages': <FallbackStorage: request=<WSGIRequest: GET '/accounts/account/4/'>>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'SUCCESS': 25, 'WARNING': 30, 'ERROR': 40}}, {}, {'account': <BankAccount: viratg - sdfg>, 'transactions': <QuerySet [<Transaction: Withdrawal - 233.00>, <Transaction: Transfer - 100.00>]>, 'form': <TransactionForm bound=False, valid=False, fields=(amount;transaction_type;transfer_to)>}]
+"GET /accounts/account/4/ HTTP/1.1" 200 2185
