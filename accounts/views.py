@@ -2,6 +2,48 @@ from django.shortcuts import render, redirect
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from .forms import UserRegisterForm, UserLoginForm
+from .models import BankAccount, Transaction
+from .forms import BankAccountForm, TransactionForm
+
+@login_required
+def create_account(request):
+    if request.method == 'POST':
+        form = BankAccountForm(request.POST)
+        if form.is_valid():
+            account = form.save(commit=False)
+            account.user = request.user
+            account.save()
+            return redirect('account_list')
+    else:
+        form = BankAccountForm()
+    return render(request, 'accounts/create_account.html', {'form': form})
+
+@login_required
+def account_list(request):
+    accounts = BankAccount.objects.filter(user=request.user)
+    return render(request, 'accounts/account_list.html', {'accounts': accounts})
+
+@login_required
+def account_detail(request, account_id):
+    account = BankAccount.objects.get(id=account_id)
+    transactions = Transaction.objects.filter(account=account)
+    if request.method == 'POST':
+        form = TransactionForm(request.POST)
+        if form.is_valid():
+            transaction = form.save(commit=False)
+            transaction.account = account
+            if transaction.transaction_type == 'withdrawal' and transaction.amount > account.balance:
+                return render(request, 'accounts/account_detail.html', {'account': account, 'transactions': transactions, 'form': form, 'error': 'Insufficient balance'})
+            transaction.save()
+            if transaction.transaction_type == 'deposit':
+                account.balance += transaction.amount
+            elif transaction.transaction_type == 'withdrawal':
+                account.balance -= transaction.amount
+            account.save()
+            return redirect('account_detail', account_id=account_id)
+    else:
+        form = TransactionForm()
+    return render(request, 'accounts/account_detail.html', {'account': account, 'transactions': transactions, 'form': form})
 
 def register(request):
     if request.method == 'POST':
