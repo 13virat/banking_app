@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account List</title>
+    <title>Transaction History</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h2>Account List</h2>
+        <h2>Transaction History</h2>
         <ul class="list-group">
-            {% for account in accounts %}
+            {% for transaction in transactions %}
                 <li class="list-group-item">
-                    <a href="{% url 'account_detail' account.id %}">{{ account.account_number }}</a> - Balance: {{ account.balance }}
+                    {{ transaction.transaction_type }} - Amount: {{ transaction.amount }} - Timestamp: {{ transaction.timestamp }}
                 </li>
+            {% empty %}
+                <li class="list-group-item">No transactions found.</li>
             {% endfor %}
         </ul>
-        <a href="{% url 'create_account' %}" class="btn btn-primary mt-3">Create New Account</a>
     </div>
 </body>
 </html>

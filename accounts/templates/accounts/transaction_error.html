@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Account</title>
+    <title>Error</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <h2>Create Account</h2>
-        <form method="POST">
-            {% csrf_token %}
-            {{ form.as_p }}
-            <button type="submit" class="btn btn-primary">Create Account</button>
-        </form>
+        <h2>Error</h2>
+        <p class="text-danger">{{ error }}</p>
+        <a href="{% url 'account_list' %}" class="btn btn-primary">Back to Accounts</a>
     </div>
 </body>
 </html>

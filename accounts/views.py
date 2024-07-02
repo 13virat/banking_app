@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.decorators import login_required
 from .forms import UserRegisterForm, UserLoginForm
@@ -20,30 +20,31 @@ def create_account(request):
 
 @login_required
 def account_list(request):
-    accounts = BankAccount.objects.filter(user=request.user)
+    accounts = BankAccount.objects.filter(user=request.user).prefetch_related('transactions')
     return render(request, 'accounts/account_list.html', {'accounts': accounts})
 
 @login_required
 def account_detail(request, account_id):
-    account = BankAccount.objects.get(id=account_id)
-    transactions = Transaction.objects.filter(account=account)
+    account = get_object_or_404(BankAccount, id=account_id, user=request.user)
+    transactions = Transaction.objects.filter(account=account).select_related('account')
     if request.method == 'POST':
-        form = TransactionForm(request.POST)
+        form = TransactionForm(request.POST, user=request.user)
         if form.is_valid():
             transaction = form.save(commit=False)
             transaction.account = account
-            if transaction.transaction_type == 'withdrawal' and transaction.amount > account.balance:
-                return render(request, 'accounts/account_detail.html', {'account': account, 'transactions': transactions, 'form': form, 'error': 'Insufficient balance'})
-            transaction.save()
-            if transaction.transaction_type == 'deposit':
-                account.balance += transaction.amount
-            elif transaction.transaction_type == 'withdrawal':
-                account.balance -= transaction.amount
-            account.save()
+            try:
+                transaction.execute_transaction()
+            except ValueError as e:
+                return render(request, 'accounts/account_detail.html', {'account': account, 'transactions': transactions, 'form': form, 'error': str(e)})
             return redirect('account_detail', account_id=account_id)
     else:
-        form = TransactionForm()
+        form = TransactionForm(user=request.user)
     return render(request, 'accounts/account_detail.html', {'account': account, 'transactions': transactions, 'form': form})
+
+@login_required
+def transaction_history(request):
+    transactions = Transaction.objects.filter(account__user=request.user).order_by('-timestamp')
+    return render(request, 'accounts/transaction_history.html', {'transactions': transactions})
 
 def register(request):
     if request.method == 'POST':
@@ -82,3 +83,22 @@ def user_logout(request):
 @login_required
 def profile(request):
     return render(request, 'accounts/profile.html')
+
+@login_required
+def create_transaction(request, account_id):
+    account = get_object_or_404(BankAccount, id=account_id)
+    if request.method == 'POST':
+        form = TransactionForm(request.POST)
+        if form.is_valid():
+            transaction = form.save(commit=False)
+            transaction.account = account
+            transaction.save()
+            try:
+                transaction.execute_transaction()
+            except ValueError as e:
+                return render(request, 'accounts/transaction_error.html', {'error': str(e)})
+            return redirect('account_detail', account_id=account_id)
+    else:
+        form = TransactionForm()
+    return render(request, 'accounts/create_transaction.html', {'form': form})
+
