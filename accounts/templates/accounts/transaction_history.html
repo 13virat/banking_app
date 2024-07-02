@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transaction History</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-    <div class="container">
-        <h2>Transaction History</h2>
-        <ul class="list-group">
-            {% for transaction in transactions %}
-                <li class="list-group-item">
-                    {{ transaction.transaction_type }} - Amount: {{ transaction.amount }} - Timestamp: {{ transaction.timestamp }}
-                </li>
-            {% empty %}
-                <li class="list-group-item">No transactions found.</li>
-            {% endfor %}
-        </ul>
-    </div>
-</body>
-</html>
+{% extends 'accounts/base.html' %}
+
+{% block title %}Transaction History{% endblock %}
+
+{% block content %}
+<h2>Transaction History</h2>
+<ul>
+    {% for transaction in transactions %}
+    <li>{{ transaction.timestamp }} - {{ transaction.transaction_type }} - {{ transaction.amount }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -4,9 +4,26 @@ from django.contrib.auth.decorators import login_required
 from .forms import UserRegisterForm, UserLoginForm
 from .models import BankAccount, Transaction
 from .forms import BankAccountForm, TransactionForm
+from .forms import SignUpForm
 import logging
-
 logger = logging.getLogger(__name__)
+
+def home(request):
+    return render(request, 'home.html')
+
+
+def signup(request):
+    if request.method == 'POST':
+        form = SignUpForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            login(request, user)
+            return redirect('account_list')
+    else:
+        form = SignUpForm()
+    return render(request, 'registration/signup.html', {'form': form})
+
+
 
 
 @login_required
