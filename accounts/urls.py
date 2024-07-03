@@ -13,4 +13,5 @@ urlpatterns = [
     path('signup/', views.signup, name='signup'),
     path('login/', LoginView.as_view(success_url='/'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(), name='logout'),
+    path('download_statement/', views.download_statement, name='download_statement'),
 ]

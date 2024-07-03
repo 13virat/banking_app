@@ -6,6 +6,18 @@ from .models import BankAccount, Transaction
 from .forms import BankAccountForm, TransactionForm
 from .forms import SignUpForm
 import logging
+# views.py
+
+
+from django.http import FileResponse
+
+from .utils import generate_pdf_statement
+
+@login_required
+def download_statement(request):
+    pdf = generate_pdf_statement(request.user)
+    return FileResponse(pdf, as_attachment=True, filename='statement.pdf')
+
 logger = logging.getLogger(__name__)
 
 def home(request):
