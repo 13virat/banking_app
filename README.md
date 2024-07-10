@@ -73,27 +73,15 @@ Installation
 
 1.  **Clone the repository**:
 
-    bash
-
-    Copy code
-
-    `git clone https://github.com/yourusername/starlit-financial.git
-    cd starlit-financial`
+    `git clone https://github.com/13virat/banking_app.git
+    cd banking_app`
 
 2.  **Create a virtual environment**:
-
-    bash
-
-    Copy code
 
     `python -m venv venv
     source venv/bin/activate`  # On Windows, use `venv\Scripts\activate`
 
 3.  **Install dependencies**:
-
-    bash
-
-    Copy code
 
     `pip install -r requirements.txt`
 
@@ -102,33 +90,17 @@ Installation
     -   Update `settings.py` with your specific configurations (e.g., database, email, and Twilio settings).
 5.  **Apply migrations**:
 
-    bash
-
-    Copy code
-
     `python manage.py migrate`
 
 6.  **Create a superuser**:
-
-    bash
-
-    Copy code
 
     `python manage.py createsuperuser`
 
 7.  **Run the development server**:
 
-    bash
-
-    Copy code
-
     `python manage.py runserver`
 
 8.  **Start the Celery worker**:
-
-    bash
-
-    Copy code
 
     `celery -A banking_app worker --loglevel=info`
 
